@@ -12,11 +12,15 @@ Turma 29
 
 - Essa disciplina ainda não demanda atividades
 
+Todas as atividades serão desenvolvidas através do Google Classroom. Lembre-se que É PRECISO utilizar seu e-mail instucional (@uni9.edu.br) para acessar
+
 ## Preparação do ambiente de desenvolvimento
 
 Clique no link abaixo para acessar o documento que confecionamos em aula e contempla o processo de preparação do ambiente de desenvolvimento da disciplina:
 
-[PREPARAÇÃO DO AMBIENTE]()
+[PREPARAÇÃO DO AMBIENTE](https://docs.google.com/document/d/1ZFE4xYtrMhgJIYu4Jop4A2aHEVGrI5e41nFXcrKaoHU/edit?usp=sharing)
+
+Lembre-se que é preciso utilizar seu e-mail institucional (@uni9.edu.br) para acessar o documento assim
 
 ## Critérios de avaliação
 
