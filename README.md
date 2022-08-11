@@ -39,5 +39,10 @@ Utilizaremos as melhores e mas atuais ferramentas e bibliotecas para desenvolvim
 ## Links interessantes e bibliografia
 
 - Cursos de Git e GitHub:
-    - Udemy - [Git e Github para iniciantes](https://www.udemy.com/course/git-e-github-para-iniciantes/)
-    - SchoolOfNet [Git e Github](https://www.schoolofnet.com/curso/git/controle-de-versao/git-e-github/)
+  - Udemy - [Git e Github para iniciantes](https://www.udemy.com/course/git-e-github-para-iniciantes/)
+  - SchoolOfNet [Git e Github](https://www.schoolofnet.com/curso/git/controle-de-versao/git-e-github/)
+- Plataformas interesantes com cursos gratuitos
+  - [DIO](https://www.dio.me/)
+- Canais interessantes
+  - [Curso em Video](https://www.youtube.com/c/CursoemV%C3%ADdeo)
+  - [Felipe Deschamps](https://www.youtube.com/c/FilipeDeschamps)
