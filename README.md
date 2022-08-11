@@ -12,7 +12,7 @@ Turma 29
 
 - Essa disciplina ainda não demanda atividades
 
-Todas as atividades serão desenvolvidas através do Google Classroom. Lembre-se que É PRECISO utilizar seu e-mail instucional (@uni9.edu.br) para acessar
+Todas as atividades serão desenvolvidas através do Google Classroom. Lembre-se que É PRECISO utilizar seu e-mail insticucional (@uni9.edu.br) para acessar
 
 ## Preparação do ambiente de desenvolvimento
 
