@@ -32,4 +32,8 @@ Todas as atividades deverão ser realizadas individualmente.
 
 ## Mini ementa da discipina
 
+Vamos aprender a desenvolver aplicações móveis utilizando uma tencologia híbrida (Flutter).
+
+Utilizaremos as melhores e mas atuais ferramentas e bibliotecas para desenvolvimento.
+
 ## Links interessantes e bibliografia
