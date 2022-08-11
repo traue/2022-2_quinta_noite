@@ -37,3 +37,7 @@ Vamos aprender a desenvolver aplicações móveis utilizando uma tencologia híb
 Utilizaremos as melhores e mas atuais ferramentas e bibliotecas para desenvolvimento.
 
 ## Links interessantes e bibliografia
+
+- Cursos de Git e GitHub:
+    - Udemy - [Git e Github para iniciantes](https://www.udemy.com/course/git-e-github-para-iniciantes/)
+    - SchoolOfNet [Git e Github](https://www.schoolofnet.com/curso/git/controle-de-versao/git-e-github/)
