@@ -20,13 +20,13 @@ Clique no link abaixo para acessar o documento que confecionamos em aula e conte
 
 [PREPARAÇÃO DO AMBIENTE](https://docs.google.com/document/d/1ZFE4xYtrMhgJIYu4Jop4A2aHEVGrI5e41nFXcrKaoHU/edit?usp=sharing)
 
-Lembre-se que é preciso utilizar seu e-mail institucional (@uni9.edu.br) para acessar o documento assim
+Lembre-se que é preciso utilizar seu e-mail institucional (@uni9.edu.br) para acessar o documento.
 
 ## Critérios de avaliação
 
-Sua nota é composta unica e exclusivamente pelas atividades da disciplina. Médias simples.
+Sua nota é composta unica e exclusivamente pelas atividades da disciplina. Média simples.
 
-Todas as atividades possuem um prazo mínimo de 14 dias para realização, ou seja, o professor sempre avisará quando abrir uma atividade e você terá ao menos duas semanas para realiza-la. Teremos de 4 a 6 atividades na disciplina.
+Todas as atividades possuem um prazo mínimo de 14 dias para realização, ou seja, o professor sempre avisará quando abrir uma atividade e você terá ao menos duas semanas para realizá-la. Teremos de 4 a 6 atividades na disciplina.
 
 Este professor não aplica prova, somente atividades assíncronas.
 
