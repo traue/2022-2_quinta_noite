@@ -16,7 +16,20 @@ void main() {
   
   print(notas);
   
+  //No dart NORMALMENTE declaramos maps assim:
   Map<String, dynamic> teste;
-    
-    //paramos aqui
+  
+  teste = {
+    "Bla": 10,
+    "Ble": "Ola Mundo",
+    "Teste": 10.5,
+    "Traue": "Thiago",
+    "Apple": 9000
+  };
+  
+  print(teste);
+  
+  notas.remove("Jheniffer");
+  
+  print(notas);
 }
