@@ -12,7 +12,7 @@ Turma 29
 
 Todas as atividades da disciplina estão listadas abaixo. Elas vencem às 19:35 do dia informado.
 
-- Atividade 1: De 22.09 até 20.10
+- **Atividade 1**: De 22.09 até 20.10
 
 Todas as atividades serão desenvolvidas através do Google Classroom (link no início deste texto). Lembre-se que É PRECISO utilizar seu e-mail insticucional (@uni9.edu.br) para acessar
 
