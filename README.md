@@ -10,9 +10,11 @@ Turma 29
 
 ## Atividades
 
-- Essa disciplina ainda não demanda atividades
+Todas as atividades da disciplina estão listadas abaixo. Elas vencem às 19:35 do dia informado.
 
-Todas as atividades serão desenvolvidas através do Google Classroom. Lembre-se que É PRECISO utilizar seu e-mail insticucional (@uni9.edu.br) para acessar
+- Atividade 1: De 22.09 até 20.10
+
+Todas as atividades serão desenvolvidas através do Google Classroom (link no início deste texto). Lembre-se que É PRECISO utilizar seu e-mail insticucional (@uni9.edu.br) para acessar
 
 ## Preparação do ambiente de desenvolvimento
 
