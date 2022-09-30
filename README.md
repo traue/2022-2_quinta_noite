@@ -53,3 +53,22 @@ Utilizaremos as melhores e mas atuais ferramentas e bibliotecas para desenvolvim
 - Canais interessantes
   - [Curso em Video](https://www.youtube.com/c/CursoemV%C3%ADdeo)
   - [Felipe Deschamps](https://www.youtube.com/c/FilipeDeschamps)
+  
+## Alguns livros legais
+
+Livros legais (recomendação do Prof. Traue):
+
+Para desenvolvedores:
+  - Engenharia de Software - Sommerville
+  - Código limpo (Clean Code)
+  - UML2 Toolkit
+  - Padrões de Projetos (Design Patterns)
+  - Java como programar - Deitel
+
+  Para quem quer ir para projetos:
+   - PMBoK
+
+  Recomendações de vocês:
+   - O Programador Pragmático: De Aprendiz a Mestre
+   - Refatoração: Aperfeiçoando o Design de Códigos Existentes
+
