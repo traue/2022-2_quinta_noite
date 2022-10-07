@@ -62,7 +62,7 @@ class _HomeState extends State<Home> {
     const String apiURL = "api.openweathermap.org";
     const String path = "/data/2.5/weather";
     const String appid =
-        "52dac29f5abdadd0a09e36fb0f691c49"; //Cole a SUA chave de API
+        ""; //Cole a SUA chave de API
     const String units = "metric";
     const String lang = "pt_br";
 
