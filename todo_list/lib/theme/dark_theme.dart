@@ -8,7 +8,7 @@ ThemeData darkTheme() {
     ),
     brightness: Brightness.dark,
     appBarTheme: const AppBarTheme(color: Colors.white12),
-    scaffoldBackgroundColor: Colors.white30,
+    scaffoldBackgroundColor: Colors.grey[700],
     iconTheme: const IconThemeData(color: Colors.white),
     hintColor: Colors.orange,
     floatingActionButtonTheme:
