@@ -16,7 +16,6 @@ class _HomeState extends State<Home> {
   late Map<String, dynamic> _ultimoRemovido;
   late int _indexUltimoRemovido;
 
-
   @override
   void initState() {
     super.initState();
@@ -26,8 +25,6 @@ class _HomeState extends State<Home> {
       });
     });
   }
-
-  //TERMINAMOS.. FALTA TESTAR
 
   Future<File> _abreArquivo() async {
     final diretorio = await getApplicationDocumentsDirectory();
@@ -50,42 +47,47 @@ class _HomeState extends State<Home> {
   }
 
   void _adicionaTarefa() {
-    Map<String, dynamic> novoTodo = {};
-    novoTodo['titulo'] = _todoController.text;
-    novoTodo['status'] = false;
-    //limpar o campo de texto onde o usuário digitou a tarefa
-    _todoList.add(novoTodo);
-    _salvarDados();
+    setState(() {
+      Map<String, dynamic> novoTodo = {};
+      novoTodo['titulo'] = _todoController.text;
+      novoTodo['status'] = false;
+      //limpar o campo de texto onde o usuário digitou a tarefa
+      _todoList.add(novoTodo);
+      _salvarDados();
+    });
   }
 
   Widget widgetTarefa(BuildContext context, int index) {
     return Dismissible(
-        key: Key(DateTime.now().microsecondsSinceEpoch.toString()),
-        background: Container(
-          color: Colors.red,
-          child: const Align(
-            alignment: Alignment(0.9, 0),
-            child: Icon(Icons.delete_sweep_outlined, color: Colors.white,),
+      key: Key(DateTime.now().microsecondsSinceEpoch.toString()),
+      background: Container(
+        color: Colors.red,
+        child: const Align(
+          alignment: Alignment(0.9, 0),
+          child: Icon(
+            Icons.delete_sweep_outlined,
+            color: Colors.white,
           ),
         ),
-        direction: DismissDirection.endToStart,
-        child: CheckboxListTile(
-          title: Text(_todoList[index]['titulo']),
-          value: _todoList[index]['status'],
-          secondary: CircleAvatar(
-            backgroundColor: Theme.of(context).colorScheme.secondary,
-            child: Icon(
-              _todoList[index]['status'] ? Icons.check : Icons.error_outline,
-              color: Theme.of(context).colorScheme.primary,
-            ),
+      ),
+      direction: DismissDirection.endToStart,
+      child: CheckboxListTile(
+        title: Text(_todoList[index]['titulo']),
+        value: _todoList[index]['status'],
+        secondary: CircleAvatar(
+          backgroundColor: Theme.of(context).colorScheme.secondary,
+          child: Icon(
+            _todoList[index]['status'] ? Icons.check : Icons.error_outline,
+            color: Theme.of(context).colorScheme.primary,
           ),
-          onChanged: (value) {
-            setState(() {
-              _todoList[index]['status'] = value;
-              _salvarDados();
-            });
-          },
         ),
+        onChanged: (value) {
+          setState(() {
+            _todoList[index]['status'] = value;
+            _salvarDados();
+          });
+        },
+      ),
       onDismissed: (direction) {
         _ultimoRemovido = Map.from(_todoList[index]);
         _indexUltimoRemovido = index;
@@ -119,8 +121,8 @@ class _HomeState extends State<Home> {
     await Future.delayed(const Duration(seconds: 1));
     setState(() {
       _todoList.sort((a, b) {
-        if(a['status'] && !b['status']) return 1;
-        if(!a['status'] && b['status']) return -1;
+        if (a['status'] && !b['status']) return 1;
+        if (!a['status'] && b['status']) return -1;
         return 0;
       });
     });
@@ -134,64 +136,61 @@ class _HomeState extends State<Home> {
         centerTitle: true,
       ),
       body: Builder(
-        builder: (context) {
-          return Column(
-            children: [
-              Container(
-                padding: const EdgeInsets.fromLTRB(10, 1, 10, 1),
-                child: Row(
-                  children: [
-                    Expanded(
-                        child: TextField(
-                      controller: _todoController,
-                      maxLength: 90,
-                      decoration: const InputDecoration(labelText: 'Nova Tarefa'),
-                    )),
-                    SizedBox(
-                      height: 36,
-                      width: 36,
-                      child: FloatingActionButton(
-                        child: const Icon(Icons.save),
-                        onPressed: () {
-                          if (_todoController.text.isEmpty) {
-                            final snack = SnackBar(
-                              content: const Text('Não pode ser vazia!'),
-                              duration: const Duration(seconds: 4),
-                              action: SnackBarAction(
-                                label: 'Ok',
-                                onPressed: () {
-                                  ScaffoldMessenger.of(context).
-                                    removeCurrentSnackBar();
-                                }
-                              )
-                            );
+          builder: (context) => Column(
+                children: [
+                  Container(
+                    padding: const EdgeInsets.fromLTRB(10, 1, 10, 1),
+                    child: Row(
+                      children: [
+                        Expanded(
+                            child: TextField(
+                          controller: _todoController,
+                          maxLength: 90,
+                          decoration:
+                              const InputDecoration(labelText: 'Nova Tarefa'),
+                        )),
+                        SizedBox(
+                          height: 36,
+                          width: 36,
+                          child: FloatingActionButton(
+                            child: const Icon(Icons.save),
+                            onPressed: () {
+                              if (_todoController.text.isEmpty) {
+                                final snack = SnackBar(
+                                    content: const Text('Não pode ser vazia!'),
+                                    duration: const Duration(seconds: 4),
+                                    action: SnackBarAction(
+                                        label: 'Ok',
+                                        onPressed: () {
+                                          ScaffoldMessenger.of(context)
+                                              .removeCurrentSnackBar();
+                                        }));
 
-                            ScaffoldMessenger.of(context).removeCurrentSnackBar();
-                            ScaffoldMessenger.of(context).showSnackBar(snack);
-                          } else {
-                            _adicionaTarefa();
-                          }
-                        },
-                      ),
-                    )
-                  ],
-                ),
-              ),
-              const Padding(padding: EdgeInsets.only(top: 10)),
-              Expanded(
-                  child: RefreshIndicator(
+                                ScaffoldMessenger.of(context)
+                                    .removeCurrentSnackBar();
+                                ScaffoldMessenger.of(context)
+                                    .showSnackBar(snack);
+                              } else {
+                                _adicionaTarefa();
+                              }
+                            },
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                  const Padding(padding: EdgeInsets.only(top: 10)),
+                  Expanded(
+                      child: RefreshIndicator(
                     onRefresh: _reordenaLIsta,
                     child: ListView.builder(
                       itemBuilder: widgetTarefa,
                       itemCount: _todoList.length,
                       padding: const EdgeInsets.only(top: 10),
                     ),
-                  )
-              )
-            ],
-          );
-        }
-      ),
+                  ))
+                ],
+              )),
     );
   }
 }
