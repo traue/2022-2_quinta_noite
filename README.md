@@ -13,7 +13,7 @@ Turma 29
 Todas as atividades da disciplina estão listadas abaixo. Elas vencem às 19:35 do dia informado.
 
 - **Atividade 1**: De 22.09 até 20.10 - Encerrada
-- **Atividade 2**: De 29.09 até 03.11
+- **Atividade 2**: De 29.09 até 03.11 - Encerrada
 - **Atividade 3**: De 20.10 até 17.11
 
 
