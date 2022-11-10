@@ -17,6 +17,9 @@ Todas as atividades da disciplina estão listadas abaixo. Elas vencem às 19:35 
 - **Atividade 3**: De 20.10 até 17.11
 - **Atividade 3**: De 10.11 até 01.12
 
+## Avaliação Integrada
+
+Dia **08.12**
 
 Todas as atividades serão desenvolvidas através do Google Classroom (link no início deste texto). Lembre-se que É PRECISO utilizar seu e-mail insticucional (@uni9.edu.br) para acessar
 
