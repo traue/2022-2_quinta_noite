@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "305386950195",
+    "project_id": "unizap5n",
+    "storage_bucket": "unizap5n.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305386950195:android:377f1bd7463b2aac351d46",
+        "android_client_info": {
+          "package_name": "br.uninove.unizap.uni_zap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305386950195-uqtqdsn28l5uo7d9p5218j6r2kmv7qnh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.uninove.unizap.uni_zap",
+            "certificate_hash": "8a92cdc507522836ecd3614e5ca34acddfb3bb19"
+          }
+        },
+        {
+          "client_id": "305386950195-jt8gugl03qkns568egvdp63okp10a0dl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpGzyXKI9X7Po2G1VRZvu1pegBkRGn4co"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305386950195-jt8gugl03qkns568egvdp63okp10a0dl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
