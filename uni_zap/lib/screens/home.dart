@@ -47,7 +47,7 @@ class HomeState extends State<Home> {
           children: <Widget>[
             CircleAvatar(
               backgroundImage: NetworkImage(user!.photoURL!),
-              radius: 30,
+              radius: 70,
             ),
             const SizedBox(height: 20),
             Text(user!.displayName!),

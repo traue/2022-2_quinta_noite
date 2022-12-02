@@ -7,6 +7,7 @@ class Constants {
   static const kBlack = Color(0xFF000000);
   static const kDarkGreyColor = Color(0xFF9E9E9E);
   static const kDarkBlueColor = Color(0xFF6057FF);
+  static const kLighGreen = Color(0xFF69f0AE);
   static const kBorderColor = Color(0xFFEFEFEF);
 
   //text
@@ -16,6 +17,10 @@ class Constants {
   static const textSignInWithGoogle = 'Entrar com Google';
   static const errorText = 'Erro';
   static const okText = 'Ok';
+  static const galleryText = 'Galeria';
+  static const camaraText = 'Câmera';
+  static const cancelText = 'Cancelar';
+  static const sendMessageText = 'Enviar mensagem';
 
   //navigation
   static const signInNavigate = '/';
