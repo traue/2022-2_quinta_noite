@@ -16,7 +16,7 @@ Todas as atividades da disciplina estão listadas abaixo. Elas vencem às 19:35 
 - **Atividade 2**: De 29.09 até 03.11 - Encerrada
 - **Atividade 3**: De 20.10 até 17.11 - Encerrada
 - **Atividade 4**: De 10.11 até 01.12 - Encerrada
-- **Atividade 5**: De 17.11 até 08.12
+- **Atividade 5**: De 17.11 até 08.12 - Encerrada
 
 ## Avaliação Integrada
 
